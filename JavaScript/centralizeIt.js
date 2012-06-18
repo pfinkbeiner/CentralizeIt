@@ -1,3 +1,7 @@
+// CentralizeIt Script
+// Author: Patrick finkbeiner <finkbeiner.patrick@gmail.com>
+// github: https://github.com/pfinkbeiner
+
 (function($){
     $.fn.extend({ 
         centralizeIt: function() {
