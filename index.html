@@ -6,7 +6,9 @@
 	<script type="text/javascript" src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
 	<script type="text/javascript" src='JavaScript/centralizeIt.js' charset="utf-8"></script>
 	<script type="text/javascript">
-		centralize.it();
+		$(document).ready(function(){
+			$('.wrapper').centralizeIt();
+		});
 	</script>
 	<style type="text/css">
 		.wrapper {
@@ -17,6 +19,8 @@
 	</style>
 </head>
 <body>
-	<div class='wrapper'><img src="Images/yourWebsite.png" alt="This could be your website" /></div>
+	<div class='wrapper'>
+		<img src="Images/yourWebsite.png" alt="This could be your website" />
+	</div>
 </body>
 </html>
