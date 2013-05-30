@@ -9,9 +9,9 @@ Replace _yourSelector_ with the ID or Class of your container.
 
 	$(document).ready(function(){
 		$('yourSelector').centralizeIt({
-      width: 960, 
-      height: 760 
-    });
+      			width: 960, 
+      			height: 760 
+    		});
 	});
 
 That's it.
